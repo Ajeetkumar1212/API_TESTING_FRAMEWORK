@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="restassuredtestsuite">
+<listeners>
+<listener class-name="com.api.training.api.assignment_final"/>
+
+</listeners>
+<test thread-count="5" name = "rtestassuredtests">
+
+<classes>
+
+<class name="com.api.training.api.assignment_final.Get_All_emp"/>
+<class name="com.api.training.api.assignment_final.single_record_of_emp"/>
+<class name="com.api.training.api.assignment_final.Put_emp_Records"/>
+<class name="com.api.training.api.assignment_final.Delete_emp_Records"/>
+<class name="com.api.training.api.assignment_final.RestUtils"/>
+
+
+
+
+</classes>
+
+
+</test>
+
+
+</suite>
